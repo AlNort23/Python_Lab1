@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>lab1.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #2aacb8;}
+.s4 { color: #6aab73;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+lab1.py</font>
+</center></td></tr></table>
+<pre><span class="s0">import </span><span class="s1">math</span>
+
+<span class="s1">radius </span><span class="s2">= </span><span class="s3">5</span>
+<span class="s1">area </span><span class="s2">= </span><span class="s1">math</span><span class="s2">.</span><span class="s1">pi </span><span class="s2">* (</span><span class="s1">radius </span><span class="s2">** </span><span class="s3">2</span><span class="s2">)</span>
+<span class="s1">print</span><span class="s2">(</span><span class="s4">&quot;Area of the circle:&quot;</span><span class="s2">, </span><span class="s1">area</span><span class="s2">)</span>
+
+<span class="s1">radius </span><span class="s2">= </span><span class="s3">3</span>
+<span class="s1">volume </span><span class="s2">= (</span><span class="s3">4</span><span class="s2">/</span><span class="s3">3</span><span class="s2">) * </span><span class="s1">math</span><span class="s2">.</span><span class="s1">pi </span><span class="s2">* (</span><span class="s1">radius </span><span class="s2">** </span><span class="s3">3</span><span class="s2">)</span>
+<span class="s1">print</span><span class="s2">(</span><span class="s4">&quot;Volume of the sphere:&quot;</span><span class="s2">, </span><span class="s1">volume</span><span class="s2">)</span>
+
+<span class="s1">a </span><span class="s2">= </span><span class="s3">3</span>
+<span class="s1">b </span><span class="s2">= </span><span class="s3">4</span>
+<span class="s1">hypotenuse </span><span class="s2">= </span><span class="s1">math</span><span class="s2">.</span><span class="s1">sqrt</span><span class="s2">(</span><span class="s1">a</span><span class="s2">**</span><span class="s3">2 </span><span class="s2">+ </span><span class="s1">b</span><span class="s2">**</span><span class="s3">2</span><span class="s2">)</span>
+<span class="s1">print</span><span class="s2">(</span><span class="s4">&quot;Hypotenuse of the triangle:&quot;</span><span class="s2">, </span><span class="s1">hypotenuse</span><span class="s2">)</span>
+
+<span class="s1">full_name </span><span class="s2">= </span><span class="s4">&quot;Camille Bowman Willis&quot;</span>
+<span class="s1">print</span><span class="s2">(</span><span class="s4">&quot;Length of name:&quot;</span><span class="s2">, </span><span class="s1">len</span><span class="s2">(</span><span class="s1">full_name</span><span class="s2">))</span>
+
+<span class="s1">first_name </span><span class="s2">= </span><span class="s4">&quot;Camille&quot;</span>
+<span class="s1">middle_name </span><span class="s2">= </span><span class="s4">&quot;Bowman&quot;</span>
+<span class="s1">last_name </span><span class="s2">= </span><span class="s4">&quot;Willis&quot;</span>
+<span class="s1">print</span><span class="s2">(</span><span class="s4">&quot;Full name:&quot;</span><span class="s2">, </span><span class="s1">first_name </span><span class="s2">+ </span><span class="s4">&quot; &quot; </span><span class="s2">+ </span><span class="s1">middle_name </span><span class="s2">+ </span><span class="s4">&quot; &quot; </span><span class="s2">+ </span><span class="s1">last_name</span><span class="s2">)</span>
+
+<span class="s1">print</span><span class="s2">(</span><span class="s4">&quot;Name in uppercase:&quot;</span><span class="s2">, </span><span class="s1">full_name</span><span class="s2">.</span><span class="s1">upper</span><span class="s2">())</span>
+<span class="s1">print</span><span class="s2">(</span><span class="s4">&quot;Name in lowercase:&quot;</span><span class="s2">, </span><span class="s1">full_name</span><span class="s2">.</span><span class="s1">lower</span><span class="s2">())</span>
+
+<span class="s1">age </span><span class="s2">= </span><span class="s3">41</span>
+<span class="s1">height_feet </span><span class="s2">= </span><span class="s3">5</span>
+<span class="s1">height_inches </span><span class="s2">= </span><span class="s3">7</span>
+<span class="s1">weight </span><span class="s2">= </span><span class="s3">135</span>
+
+<span class="s1">print</span><span class="s2">(</span><span class="s4">&quot;Age:&quot;</span><span class="s2">, </span><span class="s1">age</span><span class="s2">, </span><span class="s4">&quot;(&quot;</span><span class="s2">, </span><span class="s4">&quot;years&quot;</span><span class="s2">, </span><span class="s4">&quot;)&quot;</span><span class="s2">)</span>
+<span class="s1">print</span><span class="s2">(</span><span class="s4">&quot;Height:&quot;</span><span class="s2">, </span><span class="s1">height_feet</span><span class="s2">, </span><span class="s4">&quot;feet&quot;</span><span class="s2">, </span><span class="s1">height_inches</span><span class="s2">, </span><span class="s4">&quot;inches (&quot;</span><span class="s2">, </span><span class="s4">&quot;feet/inches&quot;</span><span class="s2">, </span><span class="s4">&quot;)&quot;</span><span class="s2">)</span>
+<span class="s1">print</span><span class="s2">(</span><span class="s4">&quot;Weight:&quot;</span><span class="s2">, </span><span class="s1">weight</span><span class="s2">, </span><span class="s4">&quot;(&quot;</span><span class="s2">, </span><span class="s4">&quot;pounds&quot;</span><span class="s2">, </span><span class="s4">&quot;)&quot;</span><span class="s2">)</span>
+
+<span class="s1">bmi </span><span class="s2">= </span><span class="s1">weight </span><span class="s2">/ ((</span><span class="s1">height_feet </span><span class="s2">* </span><span class="s3">12 </span><span class="s2">+ </span><span class="s1">height_inches</span><span class="s2">) ** </span><span class="s3">2</span><span class="s2">) * </span><span class="s3">703</span>
+<span class="s1">print</span><span class="s2">(</span><span class="s4">&quot;BMI:&quot;</span><span class="s2">, </span><span class="s1">bmi</span><span class="s2">)</span></pre>
+</body>
+</html>
