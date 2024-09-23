@@ -13,11 +13,11 @@ b = 4
 hypotenuse = math.sqrt(a**2 + b**2)
 print("Hypotenuse of the triangle:", hypotenuse)
 
-full_name = "Camille Bowman Willis"
+full_name = "Cami R Willis"
 print("Length of name:", len(full_name))
 
-first_name = "Camille"
-middle_name = "Bowman"
+first_name = "Cami"
+middle_name = "R"
 last_name = "Willis"
 print("Full name:", first_name + " " + middle_name + " " + last_name)
 
